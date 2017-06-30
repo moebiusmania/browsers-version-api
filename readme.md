@@ -1,6 +1,8 @@
 # (latest) Browsers version API
 
-![](https://travis-ci.org/contactlab/browsers-version-api.svg?branch=master)
+![Travis](https://img.shields.io/travis/contactlab/browsers-version-api.svg?style=flat-square)
+![](https://img.shields.io/badge/language-javascript-yellow.svg?style=flat-square)
+![](https://img.shields.io/badge/nodejs-6+-green.svg?style=flat-square)
 
 A simple web service that consumes the ```caniuse-api``` to retrieve and print the latest release version of the major browsers (*IE, Edge, Chrome, Safari, Opera*).
 
@@ -16,6 +18,11 @@ A simple web service that consumes the ```caniuse-api``` to retrieve and print t
 $ yarn start
 ```
 Starts the service at localhost:8080. 
+
+```
+$ yarn test
+```
+Execute tests locally. 
 
 ### Libraries
 * caniuse-api
