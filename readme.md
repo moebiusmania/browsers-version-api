@@ -1,6 +1,6 @@
 # (latest) Browsers version API
 
-![Travis](https://img.shields.io/travis/contactlab/browsers-version-api.svg?style=flat-square)
+[![Travis](https://img.shields.io/travis/moebiusmania/browsers-version-api.svg?style=flat-square)](https://travis-ci.org/moebiusmania/browsers-version-api)
 ![](https://img.shields.io/badge/language-javascript-yellow.svg?style=flat-square)
 ![](https://img.shields.io/badge/nodejs-6+-green.svg?style=flat-square)
 
