@@ -1,6 +1,9 @@
 {
   "name": "browsers-api",
   "version": "1.0.0",
+  "engines" : { 
+    "node" : "8.1" 
+  },
   "description": "A simple web service that consumes the caniuse-api to retrieve and print the latest release version of the major browsers (IE, Edge, Chrome, Safari, Opera).",
   "main": "index.js",
   "license": "Apache-2.0",
