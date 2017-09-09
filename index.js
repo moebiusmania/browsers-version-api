@@ -5,8 +5,10 @@ const Hapi = require('hapi');
 
 const server = new Hapi.Server();
 const browsers = caniuse.getLatestStableBrowsers();
+const port = 8080
 
-server.connection({ port: 8080 });
+server.connection({ port: port });
+console.log(`Service active on port :${port}`);
 
 const getLast = (browser) => {
   const versions = browsers.filter((e,i) => {
